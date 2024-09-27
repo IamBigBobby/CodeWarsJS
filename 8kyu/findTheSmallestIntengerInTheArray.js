@@ -10,7 +10,6 @@
 
 
 function findSmallestInt(arr) {
-    console.log(arr.sort((a, b) => a - b))
     return arr.sort((a, b) => a - b)[0];
 }
 
