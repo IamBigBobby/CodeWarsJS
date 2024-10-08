@@ -19,7 +19,6 @@
 
 function points(games) {
     return games.reduce((acc, item) => {
-        console.log(item.split(":"))
         const gameArr = item.split(':');
         if(gameArr[0] > gameArr[1]){
             acc += 3;
@@ -28,7 +27,6 @@ function points(games) {
         } else {
             acc += 1;
         }
-
         return acc;
     }, 0)
   }
