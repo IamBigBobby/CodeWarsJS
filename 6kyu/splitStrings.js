@@ -16,7 +16,7 @@ function solution(str){
     resultArr.push(`${workedStr[i]}${workedStr[i + 1]}`)
    }
 
-   return resultArr;
+   return resultArr
 }
 
 console.log(solution('abcdef'));
