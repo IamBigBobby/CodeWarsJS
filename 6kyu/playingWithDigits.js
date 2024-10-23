@@ -28,7 +28,6 @@ function digPow(n, p){
         return acc;
     }, 0)
 
-    console.log(Number(strArr.join('')), accStrArr)
     const result = accStrArr / Number(strArr.join(''));
 
     return Number.isInteger(result) ? result : -1;
