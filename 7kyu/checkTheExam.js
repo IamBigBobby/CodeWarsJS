@@ -18,7 +18,6 @@ function checkExam(array1, array2) {
     let count = 0;
 
     for (let i = 0; i < array2.length; i++) {
-        console.log(array2[i])
         if (array2[i] === "") {
             continue;
         }
@@ -30,7 +29,6 @@ function checkExam(array1, array2) {
         }
     }
 
-    console.log(count);
     return count > 0 ? count : 0;
 }
 
