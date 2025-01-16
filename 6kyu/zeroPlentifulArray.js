@@ -46,6 +46,6 @@ function zeroPlentiful(arr){
         return 0
     }
     return countGroup;
-  }
+}
 
 console.log(zeroPlentiful([1, 0, 0, 0, 0, 5, 4, 0, 0, 0, 0, 0]));
