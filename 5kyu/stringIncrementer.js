@@ -17,7 +17,6 @@
 // Attention: If the number has leading zeros the amount of digits should be considered.
 
 function incrementString (strng) {
-    
 
     const arrStr = strng.split('');
     let word = '';
