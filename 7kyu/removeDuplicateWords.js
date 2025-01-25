@@ -22,8 +22,6 @@ function removeDuplicateWords (s) {
         return acc;
     }, {});
 
-    console.log(objS);
-
     return Object.keys(objS).join(' ');
 }
 
