@@ -9,8 +9,6 @@
 function sortArray(array) {
     const oddNumbers = array.filter((number) => number % 2 !== 0).sort((a, b) => a - b);
 
-    console.log(oddNumbers);
-
     let index = 0;
 
     return array.map((number) => number % 2 === 0 ? number : oddNumbers[index++]);
